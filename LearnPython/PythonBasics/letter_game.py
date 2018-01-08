@@ -33,9 +33,9 @@ def draw (bad_guesses, good_guesses, secret_word):
 
     for letter in secret_word:
         if letter in good_guesses:
-            print(letter, end='')
+            print(letter, end=' ')
         else:
-            print('_', end='')
+            print('_ ', end='')
     print('')
 def get_guess(bad_guesses,good_guesses):
     while True:
